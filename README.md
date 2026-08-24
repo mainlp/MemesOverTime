@@ -24,14 +24,3 @@ Template-level annotations mapping each post to its meme template hierarchy.
 | `template_id` | int | Top-level meme template ID |
 | `cluster_id` | int | Visual cluster ID |
 | `subcluster_local_id` | int | Local subcluster ID within the cluster |
-
-## 3. `meme_ocr.csv`
-OCR and visual entity extraction results for each post.
-
-| Column | Type | Description |
-|--------|------|-------------|
-| `post_id` | str | Unique Reddit post ID |
-| `template_id` | int | Top-level meme template ID |
-| `paddle_ocr` | str | OCR text extracted via PaddleOCR |
-| `qwen_ocr` | str | OCR text extracted via Qwen-VL |
-| `qwen_visual_entity` | str | Visual entities identified by Qwen-VL (e.g. characters, brands) |
