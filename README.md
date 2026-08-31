@@ -1,7 +1,7 @@
-# MemeAtlas
+# MemesOverTime
 
 
-# MemeAtlas Dataset Files
+# MemesOverTime Dataset Files
 
 ## 1. `reddit_post_meta.csv`
 Reddit post-level metadata sourced directly from the Reddit data dump.
